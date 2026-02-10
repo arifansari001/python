@@ -86,58 +86,58 @@
 # print(f"Your total bill is ${bill}")
 
 #PROJECT 3
-print('''
-                                    o
-                                   $""$o
-                                  $"  $$
-                                   $$$$
-                                   o "$o
-                                  o"  "$
-             oo"$$$"  oo$"$ooo   o$    "$    ooo"$oo  $$$"o
-o o o o    oo"  o"      "o    $$o$"     o o$""  o$      "$  "oo   o o o o
-"$o   ""$$$"   $$         $      "   o   ""    o"         $   "o$$"    o$$
-  ""o       o  $          $"       $$$$$       o          $  ooo     o""
-     "o   $$$$o $o       o$        $$$$$"       $o        " $$$$   o"
-      ""o $$$$o  oo o  o$"         $$$$$"        "o o o o"  "$$$  $
-        "" "$"     """""            ""$"            """      """ "
-         "oooooooooooooooooooooooooooooooooooooooooooooooooooooo$
-          "$$$$"$$$$" $$$$$$$"$$$$$$ " "$$$$$"$$$$$$"  $$$""$$$$
-           $$$oo$$$$   $$$$$$o$$$$$$o" $$$$$$$$$$$$$$ o$$$$o$$$"
-           $"""""""""""""""""""""""""""""""""""""""""""""""""""$
-           $"                                                  o
-           $"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$$
-                               GOLDEN WINNER
-''')
-print("Welcome to luck wonderland quest!")
-print("Where your every choice can bring you either close to death or life full of wealth.\n"
-      "so, be cautious about each choices you make.")
+# print('''
+#                                     o
+#                                    $""$o
+#                                   $"  $$
+#                                    $$$$
+#                                    o "$o
+#                                   o"  "$
+#              oo"$$$"  oo$"$ooo   o$    "$    ooo"$oo  $$$"o
+# o o o o    oo"  o"      "o    $$o$"     o o$""  o$      "$  "oo   o o o o
+# "$o   ""$$$"   $$         $      "   o   ""    o"         $   "o$$"    o$$
+#   ""o       o  $          $"       $$$$$       o          $  ooo     o""
+#      "o   $$$$o $o       o$        $$$$$"       $o        " $$$$   o"
+#       ""o $$$$o  oo o  o$"         $$$$$"        "o o o o"  "$$$  $
+#         "" "$"     """""            ""$"            """      """ "
+#          "oooooooooooooooooooooooooooooooooooooooooooooooooooooo$
+#           "$$$$"$$$$" $$$$$$$"$$$$$$ " "$$$$$"$$$$$$"  $$$""$$$$
+#            $$$oo$$$$   $$$$$$o$$$$$$o" $$$$$$$$$$$$$$ o$$$$o$$$"
+#            $"""""""""""""""""""""""""""""""""""""""""""""""""""$
+#            $"                                                  o
+#            $"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$$
+#                                GOLDEN WINNER
+# ''')
+# print("Welcome to luck wonderland quest!")
+# print("Where your every choice can bring you either close to death or life full of wealth.\n"
+#       "so, be cautious about each choices you make.")
 
-print(input("Your last countdown start now...\n press ENTER to continue."))
-for i in range(3,0,-1):
-    print(i)
-quest1 = input('You\'re at a cross-road!\n'
-               'Where do you want to go? "left" or "right":\n').lower()  # here we've used single quotation in order to give " to user's choice.
-if  quest1 == "left":
-    quest2 = input('\ncongratulations! You\'ve come to a lake.\n'
-                   'There is an island in the middle of the lake,\n'
-                   'would to "wait" for the boat or "swim"?\n').lower()
+# print(input("Your last countdown start now...\n press ENTER to continue."))
+# for i in range(3,0,-1):
+#     print(i)
+# quest1 = input('You\'re at a cross-road!\n'
+#                'Where do you want to go? "left" or "right":\n').lower()  # here we've used single quotation in order to give " to user's choice.
+# if  quest1 == "left":
+#     quest2 = input('\ncongratulations! You\'ve come to a lake.\n'
+#                    'There is an island in the middle of the lake,\n'
+#                    'would to "wait" for the boat or "swim"?\n').lower()
 
-    if quest2 == "wait":
-        quest3 = input('\nYou arrived at the island unharmed.\n'
-                       'There are three doors one red, one green, and one blue.\n'
-                       'Which door would you like to choose? "Red", "Green" or "Blue?"\n').lower()
-        if quest3 == "red":
-            print("You entered a room full of beasts. Game over!")
-        elif quest3 == "green":
-            print("You're thrown in the room full of fire. Game over!")
-        elif quest3 == "blue":
-            print("congratulations!you won the treasure!")
-        else:
-            print("Enter a valid choice.")
-    elif quest2 == "swim":
-        print('You got swallowed by an whale.Game over!')
-else:
-    print("Game over! You Die.")
+#     if quest2 == "wait":
+#         quest3 = input('\nYou arrived at the island unharmed.\n'
+#                        'There are three doors one red, one green, and one blue.\n'
+#                        'Which door would you like to choose? "Red", "Green" or "Blue?"\n').lower()
+#         if quest3 == "red":
+#             print("You entered a room full of beasts. Game over!")
+#         elif quest3 == "green":
+#             print("You're thrown in the room full of fire. Game over!")
+#         elif quest3 == "blue":
+#             print("congratulations!you won the treasure!")
+#         else:
+#             print("Enter a valid choice.")
+#     elif quest2 == "swim":
+#         print('You got swallowed by an whale.Game over!')
+# else:
+#     print("Game over! You Die.")
 
 
 # heads and tell using randomisation
