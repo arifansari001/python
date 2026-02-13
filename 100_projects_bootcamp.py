@@ -334,3 +334,4 @@
 #     password_list += char
 # print("Your password is:", password_list)   
 
+#PROOJECT 6  ESCAPING THE MAZE
